@@ -15,7 +15,7 @@ st.write("宿泊施設の経営課題をデータで可視化するダッシュ�
 
 st.info("分析したいメニューを選択してください。")
 
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 
 with col1:
     st.subheader("📊 人手不足シミュレーション")
@@ -50,6 +50,6 @@ st.divider()
 st.link_button(
     "🚀 宿泊DXラボへのお問い合わせはこちら",
     "https://forms.gle/9Ae3mSqKB2Vnztks7",
-    use_container_width=True,
+    use_container_width="stretch",
     type="primary",
 )
