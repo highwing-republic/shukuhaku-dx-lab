@@ -6,6 +6,10 @@ st.set_page_config(
     layout="wide",
 )
 
+st.link_button(
+    "← 誠コンサルティング公式サイトへ戻る",
+    "https://lab.ugatta-llc.com/",
+)
 st.title("🏨 宿泊DXラボ")
 st.write("宿泊施設の経営課題をデータで可視化するダッシュボードです。")
 

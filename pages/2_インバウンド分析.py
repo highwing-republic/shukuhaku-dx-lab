@@ -89,6 +89,10 @@ def get_inbound_data(app_id):
 
 # --- UI構築（ダッシュボード画面） ---
 
+st.link_button(
+    "← 誠コンサルティング公式サイトへ戻る",
+    "https://lab.ugatta-llc.com/",
+)
 st.title("🌍 都道府県別 インバウンド（国籍別）宿泊者分析")
 st.caption("データソース: e-Stat 宿泊旅行統計調査（※デモモード稼働中）")
 

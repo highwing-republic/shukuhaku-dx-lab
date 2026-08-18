@@ -6,6 +6,10 @@ import plotly.graph_objects as go
 # --- 初期設定 ---
 st.set_page_config(page_title="旅館DX提案ダッシュボード", layout="wide")
 
+st.link_button(
+    "← 誠コンサルティング公式サイトへ戻る",
+    "https://lab.ugatta-llc.com/",
+)
 st.title("📊 宿泊業 人手不足・機会損失 可視化ダッシュボード")
 st.caption("提供：宿泊DXラボ（※デモデータによるシミュレーション）")
 
