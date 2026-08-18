@@ -50,6 +50,6 @@ st.divider()
 st.link_button(
     "🚀 宿泊DXラボへのお問い合わせはこちら",
     "https://forms.gle/9Ae3mSqKB2Vnztks7",
-    use_container_width="stretch",
+    width="stretch",
     type="primary",
 )
