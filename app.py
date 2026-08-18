@@ -35,6 +35,16 @@ with col2:
         icon="🌍",
     )
 
+with col3:
+    st.subheader("📈 客室稼働率の長期推移")
+    st.write("客室稼働率の長期的な推移を可視化できます。")
+    st.page_link(
+        "pages/3_客室稼働率の長期推移.py",
+        label="長期推移を表示",
+        icon="📈",
+    )
+
+
 st.divider()
 
 st.link_button(
