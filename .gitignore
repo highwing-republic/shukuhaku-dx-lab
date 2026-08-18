@@ -1,0 +1,15 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# 個人情報を含む可能性のあるデータ
+extracted_emails_*.csv
+
+# OS / IDE
+.DS_Store
+.vscode/
